@@ -62,7 +62,8 @@ defmodule Downgest.Mixfile do
 
   defp dev_deps do
     [
-      {:credo, "~> 0.6", only: [:dev, :test]}
+      {:credo, "~> 0.6", only: [:dev, :test]},
+      {:elmer, "~> 0.0.14", only: :dev},
     ]
   end
 

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "webpack --config=web/webpack/webpack.config.js",
+    "watch": "webpack --config=web/webpack/webpack.config.js --watch",
+    "elm:install": "pushd web/elm; elm-package install; popd"
+  },
+  "devDependencies": {
+    "elm-webpack-loader": "^4.2.0",
+    "webpack": "^2.2.1"
+  }
+}
